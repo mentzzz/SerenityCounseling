@@ -1,0 +1,159 @@
+.number {
+    margin-right: 50px;
+    font-size: 120%;
+}
+
+#headshot {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+#animation1 {
+    animation-duration: 2s;
+    animation-name: slideInDown;
+
+}
+
+@keyframes slideIndown {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+  blockquote{
+    font-size: 1.4em;
+    width:60%;
+    margin:50px auto;
+    font-family:Open Sans;
+    font-style:italic;
+    color: #555555;
+    padding:1.2em 30px 1.2em 75px;
+    border-left:8px solid #78C0A8 ;
+    line-height:1.6;
+    position: relative;
+    background:#EDEDED;
+  }
+  
+  blockquote::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 10px;
+    top:-10px;
+  }
+  
+  blockquote::after{
+    content: '';
+  }
+  
+  blockquote span{
+    display:block;
+    color:#333333;
+    font-style: normal;
+    font-weight: bold;
+    margin-top:1em;
+  }
+
+body { 
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+   }
+  
+  
+  /* center the blockquote in the page */
+  /* .blockquote-wrapper {
+     display: flex;
+     height: 100vh;
+     padding: 0 20px;
+  } */
+  
+  /* Blockquote main style */
+  .blockquote {
+      position: relative;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      color: black;
+      padding: 30px 0;
+      width: 100%;
+      max-width: 500px;
+      z-index: 1;
+      margin: 80px auto;
+      align-self: center;
+      border-top: solid 1px;
+      border-bottom: solid 1px;
+  }
+  
+  /* Blockquote header */
+  .blockquote h1 {
+      position: relative;
+      color: black;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 1;
+      margin: 0;
+  }
+  
+  /* Blockquote right double quotes */
+  .blockquote:after {
+      position: absolute;
+      content: "”";
+      color: black;
+      font-size: 10rem;
+      line-height: 0;
+      bottom: -43px;
+      right: 30px;
+  }
+  
+  /* increase header size after 600px */
+  @media all and (min-width: 600px) {
+      .blockquote h1 {
+          font-size: 60px;
+     }
+  
+  }
+  
+  /* Blockquote subheader */
+  .blockquote h4 {
+      position: relative;
+      color: #292a2b;
+      font-size: 1.4rem;
+      font-weight: normal;
+      line-height: 1;
+      margin: 0;
+      padding-top: 20px;
+      z-index: 1;
+  }
+
+  .container1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.video {
+    margin-left: 25px;
+}
+/* 
+blockquote {
+    display: inline-block;
+    margin-block-start: -15em;
+    margin-block-end: -10em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+} */
+
+/* .quote {
+    align-items: flex-end !important;
+
+} */
