@@ -157,3 +157,7 @@ blockquote {
     align-items: flex-end !important;
 
 } */
+
+.logo {
+  padding-right: 10px;
+}
