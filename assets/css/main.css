@@ -3754,18 +3754,24 @@ input, select, textarea {
 			animation: reveal-header 0.5s ease;
 		}
 
+
+		#header.index {
+			background: none;
+		}
+
 		#header.alt {
 			-moz-animation: none;
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: none;
 			box-shadow: none;
 			height: 7rem;
 			line-height: 7rem;
 			padding: 0 3rem;
 			position: absolute;
 		}
+
+		
 
 			#header.alt:before {
 				background-color: #4797ec;
@@ -3782,7 +3788,7 @@ input, select, textarea {
 			}
 
 		#header + #banner {
-			margin-top: -3.5rem;
+			margin-top: -.5rem;
 		}
 
 		#header > .navPanelToggle {
@@ -3822,8 +3828,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header.alt {
-				height: 5.25rem;
-				line-height: 5.25rem;
+				height: 3.25rem;
+				line-height: 3.25rem;
 				padding: 0 1.5rem;
 			}
 
@@ -3864,6 +3870,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 	#nav {
 		-moz-flex-grow: 0;
