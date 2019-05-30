@@ -165,3 +165,11 @@ blockquote {
 #banner {
   margin-top: 50px;
 }
+
+#header.alt {
+  height: 70px;
+}
+
+.section3 {
+  margin-top: 30px;
+}
